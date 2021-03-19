@@ -1,0 +1,84 @@
+.container {
+  width: 100%;
+  height: 100vh;
+  /* background-color: grey; */
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.corpo1 {
+  width: 500px;
+  height: 500px;
+  margin: 80px;
+  margin-top: 20px;
+  margin-bottom: 0px;
+  text-align: center;
+  border: grey solid 1px;
+}
+
+.corpo1 h3 {
+  padding: 5px;
+  background-color: grey;
+}
+
+.corpo1 img {
+  width: 400px;
+  margin-top: 5px;
+  padding-bottom: 10px;
+  border-bottom: grey dashed 1px;
+}
+
+.corpo1 p {
+  color: black;
+}
+
+.corpo1 p a {
+  color: rgb(105, 209, 174);
+  font-weight: bold;
+}
+
+.corpo2 {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  height: 400px;
+  margin-left: 130px;
+  margin-top: 60px;
+  text-align: center;
+  border: grey solid 1px;
+  background-color: grey;
+}
+
+.corpo2 h3 {
+  margin-top: 20px;
+  padding: 5px;
+  border-bottom: white dashed 1px;
+}
+
+.corpo2 ul {
+  margin-top: 20px;
+}
+
+.corpo2 li {
+  margin-bottom: 5px;
+}
+
+.corpo2 ul li:hover {
+  background-color: thistle;
+}
+
+.corpo2 ul li a {
+  text-decoration: none;
+}
+
+.botao {
+  width: 150px;
+  margin: 40px 0px 0px 130px;
+  padding: 20px;
+}
+
+.corpo2 p {
+  font-size: 13px;
+  margin-top: 70px;
+  color: black;
+}
